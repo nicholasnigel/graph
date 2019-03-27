@@ -43,6 +43,6 @@ class Graph:
         ---------
             > label1,label2: the label of nodes that we want to connect
         """
-        
+        self.edges.append((label1,label2))
 
 
